@@ -1,0 +1,91 @@
+@charset "utf-8";
+@font-face {
+    font-family: "mainF";
+    src: url("/font/SUITE-Regular.ttf") format('truetype');
+
+}
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "mainF";
+    color: #333;
+}
+/* 초기화코딩 종료 */
+
+.bodywrap{
+    background: url(/resources/img/yyj_image/back_dot.svg);
+
+}
+
+.back{
+    /* border: 1px solid; */
+    width: 850px;
+    height: 600px;
+    margin-top: 110px;
+    text-align: center;
+    background-color: #F4F0E4;
+    border-radius: 30px;
+    position: relative;
+}
+
+.back2{
+    width: 520px;
+    height: 55px;
+    background-color: #C3B49E;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin-left: 160px;
+    position: absolute;
+}
+
+.notice-box{
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    left: 650px;
+    text-align: center;
+    top: 950px;
+    background: #C3B49E;
+    border-radius: 15px;
+    }
+
+
+
+ .title-qna{
+    font-weight: bold;
+    float: left;
+    margin-left: 240px;
+    margin-top: 5px;
+    font-size: 35px;
+
+ }
+
+ .table{
+    padding: 15px;
+    border-radius: 15px;
+ }
+
+ .table td{
+    font-size: 20px;
+ }
+
+ .table th{
+    font-size: 20px;
+    background: #C3B49E;
+    border-radius: 10px;
+    border-top: none !important;
+ }
+
+
+.tr td{
+    border-top: none !important;
+}
+
+ .pay1{
+    position: absolute;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: -130px;
+ }

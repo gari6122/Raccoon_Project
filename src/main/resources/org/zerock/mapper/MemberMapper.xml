@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+   <mapper namespace="org.zerock.mapper.MemberMapper">
+   
+    <!-- INSERT INTO tbl_member(USERID, USERPW, USERNAME,useradd,userbirth) 
+ VALUES('zzang1', '1234', '짱한솔1','싸움도 짱시 주먹3동 내가제일쎄 아파트 2동', 19600101); -->
+   <insert id="insert">
+   	 INSERT INTO tbl_member(USERID, USERPW, USERNAME,useradd,userbirth) 
+ VALUES(#{userId}, #{userPw}, #{userName},#{userAdd}, #{userBirth})
+   </insert>
+   
+   
+   <!-- SELECT count(userid) FROM tbl_member WHERE userid='test'; -->
+   <select id="idCheck" parameterType="String" resultType="int">
+   SELECT count(userId) FROM tbl_member WHERE userId=#{userId}
+   </select>
+   
+   <!-- select userpw from tbl_member where userid ='test'; -->
+   <!-- SELECT count(*) FROM tbl_member WHERE userid='test'
+and userpw = '1234'; -->
+   <select id="loginCheck" resultType="int">
+   	SELECT count(*) FROM tbl_member WHERE userid=#{userId}
+and userpw = #{userPw}
+	</select>
+	   
+</mapper>

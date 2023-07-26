@@ -1,0 +1,175 @@
+@charset "utf-8";
+@font-face {
+  font-family: 'SUIT-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+*{
+    /* 기본세팅 */
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'mainF';
+}
+/*!
+ * Start Bootstrap - SB Admin 2 v3.3.7+1 (http://startbootstrap.com/template-overviews/sb-admin-2)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+ body {
+    background-color: #EAE0BC;
+  }
+
+  #wrapper {
+    width: 100%;
+  }
+  #page-wrapper {
+    padding: 0 15px;
+    min-height: 568px;
+    background-color: white;
+  }
+  @media (min-width: 768px) {
+    #page-wrapper {
+      position: inherit;
+      margin: 0 0 0 250px;
+      padding: 0 30px;
+      border-left: 1px solid #e7e7e7;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+      z-index: 1;
+      position: absolute;
+      width: 250px;
+      margin-top: 51px;
+    }
+    .navbar-top-links .dropdown-messages,
+    .navbar-top-links .dropdown-tasks,
+    .navbar-top-links .dropdown-alerts {
+      margin-left: auto;
+    }
+  }
+
+  .page-header {
+    text-align: center;
+  }
+
+  .pull-right {
+    width: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .panel-body{
+    width: 90%;
+    padding-top: 50px;
+    font-size: 15pt;
+  }
+  .chat-panel .panel-body {
+    height: 350px;
+    overflow-y: scroll;
+  }
+
+  .login-panel {
+    margin-top: 25%;
+  }
+
+  #searchForm {
+    /* width: 80%; */
+    padding-bottom: 30px;
+  }
+  
+  .search-wrap {
+    position: relative;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    padding-bottom: 30px;
+    
+  }
+  
+  .board-search-btn {
+    display: flexbox;
+    margin: 10px;
+    width: 130px;
+    height: 40px;
+    color: azure;
+    background-color: darkslategray;
+    border-radius: 25px;
+  }
+
+  /* ======================= 커뮤니티 게시판 ============================= */
+
+  .commu-main-wrap {
+    display: flexbox;
+  }
+
+  .board-searchForm {
+    padding-left: 5px;
+    width: 180px !important;
+  }
+  
+  .board-search, .board-searchForm{
+    margin: 15px 10px 10px 0px;
+    margin-left: 5px;
+    margin-top: 10px;
+    width: 300px;
+    height: 40px;
+  }
+
+  .reply-modify-add-btn {
+    min-width: 500px;
+    max-width: 800px;
+    height: 120px;
+    vertical-align: middle;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 40px;
+  }
+
+  .modify-btn, .remove-btn{
+    width: 200px;
+    display: flexbox;
+    position: relative;
+  }
+
+  .modify-btn-img, modify-btn-img-hover,
+  .remove-btn-img, .remove-btn-img-hover{
+    width: 180px;
+  }
+
+  .modify-btn img.modify-btn-img-hover,
+  .remove-btn img.remove-btn-img-hover{
+    display: none;
+  }
+
+  .modify-btn:hover img.modify-btn-img,
+  .remove-btn:hover img.remove-btn-img{
+    display: none;
+  }
+
+  .modify-btn:hover img.modify-btn-img-hover,
+  .remove-btn:hover img.remove-btn-img-hover{
+    display: block;
+  }
+
+  .modify-btn-img, .remove-btn-img {
+    position: absolute;
+  }
+
+  .modify-btn:hover, .remove-btn:hover{
+    cursor: pointer;
+  }
+
+  .remove {
+    max-width: 800px;
+  }
+
+  /* ================ 댓글 ======================= */
+  .commu-reply-wrap {
+    width: 90%;
+    display: flexbox;
+  }

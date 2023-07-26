@@ -1,0 +1,358 @@
+/*hsstyle.css start*/
+@charset "utf-8";
+@font-face {
+    font-family: "mainF";
+    src: url("../../common/SUITE-Regular.otf") format('opentype');
+}
+*{
+    /* 기본세팅 */
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'mainF';
+}
+.himg{
+    display: none;
+}
+a:hover{
+    text-decoration: none;
+}
+.top{
+    background-color: #96D4AD;
+    height: 215px;
+}
+.top-wrap{
+    padding-top: 52px;
+}
+.table-wrap{
+    display: table;
+    width: 94%;
+    min-width: 1100px;
+}
+.top-li{
+    display: table-cell;
+    
+}
+.btnchange{
+    padding-top: 62px;
+    
+
+}
+.logo{
+    padding-top: 10px;
+    text-align: center;
+    vertical-align: middle;
+
+}
+.btnuser{
+    padding-top: 62px;
+    text-align: right;
+}
+.btncart{
+    padding-top: 62px;
+    text-align: right;
+}
+
+/* 메뉴바 시작 */
+.menu{
+    height: 160px;
+    background-color: #EAE0BC;
+}
+.menu-wrap{
+    display: table;
+    width: 50%;
+    padding-top: 90px;
+}
+.menuli{
+    display: table-cell;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #545B45;
+}
+.m_tile:hover{
+    font-size: 28px;
+}
+.m_tile:hover .himg{
+    display: inline-block;
+}
+
+/* 헤더 끝*/
+
+.bodywrap{
+    padding-top: 30px;
+    background-color: #EAE0BC;
+    padding-bottom: 100px;
+}
+.slider-bg{
+    width: 90%;
+    background: url(/resources/img/js_img/back_dot.svg);
+    border-radius: 15px;
+}
+.main_slider{
+    width: 90%;
+    padding-top: 80px;
+    padding-bottom: 90px;
+}
+.carousel-indicators > li {
+    height:20px;
+    width:20px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    background-color: #569F4E;
+    background-clip: border-box;
+    
+}
+.carousel-indicators{
+    padding-bottom: 18px;
+}
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  /* body 부분 끝 */
+
+  .bottom{
+    height: auto;
+    background-color: #7D6554;
+  }
+  
+  .site{
+    font-size: 25px;
+    color: #EAE0BC;
+    text-align: center;
+    padding-top: 40px;
+  }
+  .site image{
+   display: block;
+  }
+  .copy{
+    text-align: center;
+    font: 25px;
+    padding-top: 55px;
+    color: rgb(207, 161, 101);
+    padding-bottom: 25px;
+}
+/*hsstyle.css end*/
+
+/*goods, nintendo.css start*/
+.bodywrap>h2{
+    text-align: center;
+    font-weight: bold;
+    color: #545B45;
+    margin-bottom: 50px;
+}
+
+.container_S{
+    display: inline-block;
+    position: relative;
+    width: 360px;
+    height: 360px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+
+.container_S img{
+    width: 360px;
+    height: 360px;
+    border-radius: 5%;
+    margin-left: -16px;
+}
+
+.container_S:hover img{
+    opacity: 0.3;
+}
+
+.text_S{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    left: 20px;
+    bottom: 0px;
+    padding: 40% 0 40% 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.container_S:hover .text_S{
+    opacity: 1;
+}
+/*goods, nintendo.css end*/
+
+/*amiibo.css start*/
+.container_A{
+    display: inline-block;
+    position: relative;
+    width: 360px;
+    height: 500px;
+    margin-left: 90px;
+    margin-bottom: 90px;
+}
+
+.container_A img{
+    width: 360px;
+    height: 500px;
+    border-radius: 5%;
+    margin-left: -16px;
+}
+
+.container_A:hover img{
+    opacity: 0.3;
+}
+
+.text_A{
+    position: absolute;
+    width: 300px;
+    text-align: center;
+    left: 20px;
+    bottom: 0px;
+    padding: 40% 0 55% 0;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.container_A:hover .text_A{
+    opacity: 1;
+}
+/*amiibo.css end*/
+
+/*amiibi1_detail.css start*/
+.back_dot{
+    background-image: url(/resources/img/js_img/back_dot.svg);
+    width: 94%;
+    height: 1150px;
+    border-radius: 5%;
+}
+
+.main{
+    /* border: 1px solid red; */
+    width: 40.5%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+.main img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.main img:nth-child(2n-1){
+    width: 80px;
+    height: 80px;
+}
+
+.main img:nth-child(2){
+    width: 300px;
+    height: 480px;
+    margin: 0 15% 0 15%;
+    border-radius: 5%;
+}
+
+.detail{
+    margin-top: 50px;
+    /* border: 1px solid green; */
+    display: flex;
+    width: 70%;
+    height: 500px;
+    background-color: #F4F0E4;
+    border-radius: 5%;
+    text-align: center;
+}
+
+.detailL{
+    display: flexbox;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 60px;
+}
+
+.detailL img{
+    margin-top: 30px;
+    width: 180px;
+    height: 250px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.center hr{
+    border: 1px dashed #7D6554;
+    height: 380px;
+    margin-top: 60px;
+    margin-left: 70px;
+    display: block;
+    align-items: center;
+}
+
+.detailR{
+    /* border: 1px solid rgb(26, 1, 58); */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 35px;
+    margin-left: 80px;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.detailR span{
+    float: right;
+    font-size: 20pt;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+.detailR h4:nth-child(8){
+    font-size: 16pt;
+}
+
+.detailR img{
+    width: 500px;
+    height: 70px;
+}
+
+/* prev,next 버튼 css추가 */
+#prevBtn_A:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+#prevBtn_G:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+#prevBtn_N:hover {
+   transform: scale(1.1);
+   cursor: pointer;
+ }
+
+#nextBtn_A:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#nextBtn_G:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#nextBtn_N:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/*amiibo1_detail.css end*/

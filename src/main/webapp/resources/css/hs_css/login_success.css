@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "mainF";
+    src: url("../../common/SUITE-Regular.otf") format('opentype');
+
+}
+
+* {
+    /* 기본세팅 */
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'mainF';
+}
+
+
+body {
+    background-color: #96D4AD;
+    /* background-color: #EAE0BC; */
+}
+
+.under {
+    height: 650px;
+    width: 100%;
+    margin-top: 180px;
+    background: url(../../img/hs_img/success_alret.svg) no-repeat;
+    background-position: center;
+}
+
+.inputes {
+    width: 700px;
+    padding-top: 285px;
+
+}
+.notice{
+    font-size: 20pt;
+    text-align: center;
+    color: #545B45;
+    line-height: 40px;
+    padding-bottom: 30px;
+    padding-left: 55px;
+
+}
+input[type=button] {
+    width: 25%;
+    height: 100px;
+    border: none;
+}
+
+input[type=button]:hover {
+    filter: drop-shadow(5px 5px 5px #dbc04799);
+}
+
+
+.btns {
+    text-align: right;
+    margin-top: 15px;
+    /* border: 1px solid blue; */
+}
+
+.img-btn-main {
+    background: url(../../img/hs_img/메인가기.svg) no-repeat center;
+    background-size: 100%;
+    margin-right: 15px;
+}
+
+
+
+footer {
+    font-size: 12pt;
+    color: gray;
+    text-align: center;
+    padding-top: 50px;
+}

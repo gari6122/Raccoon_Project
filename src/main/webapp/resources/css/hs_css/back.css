@@ -1,0 +1,146 @@
+@font-face {
+    font-family: "mainF";
+     src: url("../../common/SUITE-Regular.otf") format('opentype');
+  
+  }
+  *{
+    /* 기본세팅 */
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: 'mainF';
+  }
+  
+  
+  body{
+    background-color: #96D4AD;
+    /* background-color: #EAE0BC; */
+  }
+  
+  .under{
+    border: 1px solid blue;
+    height: 990px;
+    width: 880px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+    background: url(/img_btn/join_alert.svg) no-repeat;
+    background-position: center;
+  }
+  
+  .inputes {
+    width: 600px;
+    padding-top: 260px;
+    border: 1px solid green;
+  }
+  
+  .join{
+    border: 1px solid red;
+    font-size: 20pt;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .join .notice{
+    margin-left: 55%;
+    font-size: 16px;
+  }
+  
+  .notice.must{
+    padding-left: 18px;
+    background : url(/img_btn/btn_leap_icon.svg) no-repeat 1px 3px;
+    background-size: 12pt;
+  }
+  
+  .notice1{
+    text-align: center !important;
+    padding: 8px;
+    display: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #7D6554;
+  }
+  
+  input[type=text]:focus{
+    border: 1.3px solid #fff;
+    outline: none;
+  }
+  
+  .p1 >input[type=text]{
+    width: 96.3%;
+    padding: 10px;
+    font-size: 12pt;
+    margin-bottom: 10px;
+    border: 1px solid #DBBF47;
+    border-radius: 10px;
+    font-family: 'mainF';
+  
+  }
+  
+  .p2 input[type=password]{
+    width: 276.1px;
+    padding: 10px;
+    font-size: 12pt;
+    margin-bottom: 15px;
+    border: 1px solid #DBBF47;
+    border-radius: 10px;
+    display:inline-block;
+  
+  }
+  
+  input[type=password]:focus{
+    border: 1.3px solid #fff;
+    outline: none;
+  }
+  
+  .p2 input[type=text]{
+    width: 276.1px;
+    padding: 10px;
+    font-size: 12pt;
+    margin-bottom: 15px;
+    border: 1px solid #DBBF47;
+    border-radius: 10px;
+    display:inline-block;
+  
+  }
+  
+  .radio_gg{
+  
+  }
+  
+  input[type=checkbox]{
+    appearance: none;
+    vertical-align: middle;
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    border: 1px solid #DBBF47;
+    background-color: #fff;
+  }
+  
+  input[type=checkbox]:checked{
+    background-color: #00A971;
+  }
+  
+  input[type=button]{
+    width: 25%;
+    height:100px;
+    border: none;
+  } 
+  
+  input[type=button]:hover{
+    filter: drop-shadow(5px 5px 5px  #dbc04799)
+  } 
+  
+  .btns{
+    text-align: right;
+    margin-top: 8px;
+  }
+  
+  footer{
+    font-size: 12pt;
+    margin: 30px;
+    color: gray;
+    text-align: center;
+  }
+  
+  

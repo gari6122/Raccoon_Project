@@ -1,0 +1,44 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: "mainF";
+  src: url("../../common/SUITE-Regular.otf") format('opentype');
+}
+
+* {
+  /* 기본세팅 */
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  font-family: 'mainF';
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.parent {
+  position: relative;
+  width: 100%;
+  height: auto;
+  /* border: 1px solid green; */
+  background-color: #c8eed6;
+
+}
+
+#canvas {
+  /* border: 1px solid pink; */
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#canvasText {
+  /* border: 1px solid red; */
+  margin-top: 200px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+}

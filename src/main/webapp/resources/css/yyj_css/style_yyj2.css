@@ -1,0 +1,104 @@
+@charset "utf-8";
+@font-face {
+    font-family: "mainF";
+    src: url("/font/SUITE-Regular.ttf") format('truetype');
+
+}
+
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    font-family: "mainF";
+    color: #333;
+}
+/* 초기화코딩 종료 */
+
+
+.bodywrap{
+    background: url(/resources/img/yyj_image/back_dot.svg);
+
+}
+
+.back{
+    /* border: 1px solid; */
+    width: 850px;
+    height: 800px;
+    margin-top: 120px;
+    text-align: center;
+    background-color: #F4F0E4;
+    border-radius: 30px;
+}
+
+.notice-box{
+    position: absolute;
+    width: 600px;
+    height: 60px;
+    left: 650px;
+    text-align: center;
+    top: 900px;
+    background: #C3B49E;
+    border-radius: 15px;
+    }
+
+    .notice-box > img {
+        position: absolute;
+        width: 69px;
+        height: 69px;
+        margin-top: -5px;
+        margin-left: -185px;
+ }
+
+ .title-qna{
+    font-weight: bold;
+    float: left;
+    margin-left: 210px;
+    margin-top: 5px;
+    font-size: 35px;
+
+ }
+
+#accordion{
+   padding: 60px;
+   width: 810px !important;
+   margin-left: 20px !important;
+   
+}
+
+.group > h3{
+    background-color: #C3B49E;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 30px !important;
+    font-weight: bold;
+}
+
+.ui-widget-content{
+    border: none !important;
+    font-weight: bold;
+    background-color: #F4F0E4 !important;
+
+}
+
+.ui-accordion .ui-accordion-header{
+    padding: 0.5em 1.5em 1.5em 0.7em !important;
+    margin: 11px 0 0 0 !important;
+}
+
+
+.ui-state-active{
+    border: none !important;
+}
+
+.answer{
+    font-size: 19px !important;
+    padding: 20px;
+    line-height: 40px !important;
+    text-align: justify;
+    text-align-last: center;
+ 
+}
+
